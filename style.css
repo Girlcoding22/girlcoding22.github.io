@@ -3,12 +3,18 @@ img{
 }
 body
 {   text-align: center;
-    font-family: "Arial";
+    font-family: "Comic Sans MS ";
 }
 body {
-    background-color: #c6ff1a;
+    background-color: #ed81f9;
 }
 p1{
 color:red;
     lol
 }
+<!--div {
+    width: 320px;
+    padding: 10px;
+    border: 3px solid gray;
+    margin: 0;
+}-->
