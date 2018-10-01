@@ -12,9 +12,15 @@ p1{
 color:red;
     lol
 }
-<!--div {
+#whynot {
     width: 320px;
     padding: 10px;
     border: 3px solid gray;
     margin: 0;
-}--> 
+}
+#ihate{
+ width: 320px;
+    padding: 10px;
+    border: 3px solid orange;
+    margin: 0;
+}
