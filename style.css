@@ -28,5 +28,8 @@ color:red;
 }
 
 #timewarp{
-width: 10em;
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    padding: 1px;
 }
