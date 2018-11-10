@@ -33,3 +33,9 @@ color:red;
     width: 300px;
     padding: 1px;
 }
+a{
+color:black;
+}
+a.active{
+color:blue;
+}
