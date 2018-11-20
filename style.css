@@ -35,7 +35,13 @@ color:red;
 }
 a{
 color:black;
+text-decoration:none;
 }
-a.active{
+a.visited{
 color:blue;
 }
+a.hover{
+color:green;}
+
+a.active{
+color:purple;}
