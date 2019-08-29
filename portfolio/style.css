@@ -6,7 +6,7 @@ body
     font-family: "Comic Sans MS ";
 }
 body {
-    background-color: #FEC8D8;
+    background-color: #ed81f9;
 }
 p1{
 color:red;
@@ -14,24 +14,27 @@ color:red;
 }
 #whynot {
     width: 33.3%;
-    padding: 10px;
+    padding: 0px;
     border: 3px solid gray;
     margin: 0;
     float:left; 
 }
 #ihate{
  width: 33.3%;
-    padding: 10px;
+    padding: 0px;
     border: 3px solid orange;
     margin: 0;
     float:left; 
+    max-width: 100%;
+
 }
 .potatoe{
-width:33.3%
+
     padding:10px;
     border: 3px solid green;
-    margin:0;
+    margin: 0;
     float:left;
+    max-width: 100%;
 }
 
 #timewarp{
