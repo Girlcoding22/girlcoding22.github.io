@@ -18,8 +18,8 @@ color:red;
 
 .colum {
   float: left;
-  width: 50%;
-  padding: 5px;
+  width: 33.33%;
+  padding: 10px;
 }
 
 /* Clearfix (clear floats) */
