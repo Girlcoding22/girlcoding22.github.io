@@ -12,6 +12,20 @@ p1{
 color:red;
     lol
 }
+*{
+  box-sizing: border-box;
+}
+.column{
+float: left;
+width: 50%;
+padding 3px;
+}
+.row::after{
+ content: "";
+  clear: both;
+  display: table;   
+}
+
 #whynot {
     width: 33.3%;
     padding: 0px;
