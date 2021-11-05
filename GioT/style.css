@@ -6,15 +6,16 @@ body
     font-family: "Comic Sans MS ";
 }
 body {
-    background-color: #ed81f9;
+    height: 750px;
+    background-color: lightblue;
+    background-image: linear-gradient(to bottom right, palegreen, white);
 }
 p1{
 color:red;
     lol
 }
-* {
-  box-sizing: border-box;
-}
+
+
 
 .colum {
   float: left;
@@ -35,6 +36,14 @@ color:red;
     margin: 0;
     float:left; 
 }
+#needBorder{
+    width: 33.3%;
+    padding: 10px;
+    border: 3px solid gray;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float:left;
+}
 #ihate{
  width: 33.3%;
     padding: 0px;
@@ -52,7 +61,6 @@ color:red;
     float:left;
     max-width: 100%;
 }
-
 
 a{
 color:black;
