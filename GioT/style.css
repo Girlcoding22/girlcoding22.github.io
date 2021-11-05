@@ -12,7 +12,6 @@ body {
 }
 p1{
 color:red;
-    lol
 }
 
 
@@ -76,4 +75,8 @@ text-decoration: underline;
 }
 
 a.active{
-color:purple;}
+color:purple;
+}
+#green{
+    background-color: #a8ff99;
+}
