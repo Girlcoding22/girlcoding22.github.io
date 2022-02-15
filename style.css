@@ -1,0 +1,79 @@
+img{ 
+    width: 200px;
+}
+body
+{   text-align: center;
+    font-family: "Comic Sans MS ";
+}
+body {
+    height: 750px;
+    background-color: lightblue;
+    background-image: linear-gradient(to bottom right, palegreen, white);
+}
+p1{
+color:red;
+    lol
+}
+
+
+
+.colum {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#whynot {
+    width: 33.3%;
+    padding: 0px;
+    border: 3px solid gray;
+    margin: 0;
+    float:left; 
+}
+#needBorder{
+    width: 33.3%;
+    padding: 10px;
+    border: 3px solid gray;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float:left;
+}
+#ihate{
+ width: 33.3%;
+    padding: 0px;
+    border: 3px solid orange;
+    margin: 0;
+    float:left; 
+    max-width: 100%;
+
+}
+.potatoe{
+
+    padding:10px;
+    border: 3px solid green;
+    margin: 0;
+    float:left;
+    max-width: 100%;
+}
+
+a{
+color:black;
+text-decoration:none;
+}
+a.visited{
+color:green;
+}
+a.hover{
+color:blue;
+background-color:light green;
+text-decoration: underline;
+}
+
+a.active{
+color:purple;}
