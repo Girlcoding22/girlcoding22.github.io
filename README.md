@@ -1,2 +1,2 @@
 # girlcoding22.github.io
-This is just the directory of the side small projects.
+This is the main directory for most of the code. The projects are in their own individual folder.
