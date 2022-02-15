@@ -1,17 +1,12 @@
 img{ 
     width: 200px;
 }
-body
-{   text-align: center;
-    font-family: "Comic Sans MS ";
+body{
+    font-family: "Times New Roman";
+    background-color: #e2bae6;
+
 }
-body {
-    background-color: #ed81f9;
-}
-p1{
-color:red;
-    lol
-}
+
 #whynot {
     width: 320px;
     padding: 10px;
