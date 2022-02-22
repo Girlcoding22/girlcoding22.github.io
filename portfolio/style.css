@@ -6,8 +6,9 @@ body
     font-family: "Comic Sans MS ";
 }
 body {
-    background-color: #e2bae6;
+    background-color: #F7D6D0;
 }
+
 p1{
 color:red;
     lol
@@ -16,6 +17,28 @@ color:red;
   box-sizing: border-box;
 }
 
+a{
+    color:#FB6090;
+    text-decoration:none;
+    }
+a:visited{
+    color: #521621;;
+    }
+a:hover{
+color:#821d30;
+/*background-color:#FFC5D0;*/
+text-decoration: underline;
+    }
+    
+a:active{
+    color:#FFC5D0;
+}
+#please{
+    text-decoration: underline #e30b5d dashed;
+}
+#please:hover{
+    color:orange;
+}
 .colum {
   float: left;
   width: 33.33%;
@@ -32,15 +55,19 @@ color:red;
     width: 33.3%;
     padding: 0px;
     border: 3px solid gray;
-    margin: 0;
+    margin-left: 4%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     float:left; 
 }
+
 #ihate{
  width: 33.3%;
     padding: 0px;
     border: 3px solid orange;
     margin: 0;
-    float:left; 
+    float:right; 
     max-width: 100%;
 
 }
@@ -52,20 +79,3 @@ color:red;
     float:left;
     max-width: 100%;
 }
-
-
-a{
-color:black;
-text-decoration:none;
-}
-a.visited{
-color:green;
-}
-a.hover{
-color:blue;
-background-color:light green;
-text-decoration: underline;
-}
-
-a.active{
-color:purple;}
