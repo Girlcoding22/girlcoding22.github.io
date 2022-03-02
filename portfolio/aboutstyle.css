@@ -3,7 +3,7 @@ img{
 }
 body{
     font-family: "Times New Roman";
-    background-color: #e2bae6;
+    background-color: #F7D6D0;
 
 }
 
@@ -28,3 +28,18 @@ body{
     width: 300px;
     padding: 1px;
 }
+a{
+    color:#FB6090;
+    text-decoration:none;
+    }
+a:visited{
+    color: #521621;;
+    }
+a:hover{
+color:#821d30;
+/*background-color:#FFC5D0;*/
+text-decoration: underline;
+    }
+a:active{
+        color:#FFC5D0;
+    }
