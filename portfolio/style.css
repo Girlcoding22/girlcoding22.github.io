@@ -11,7 +11,11 @@ body {
 
 p1{
 color:red;
-    lol
+}
+p2{
+    font-size: 32px;
+    text-decoration: solid, underline;
+    font-family: 'Times New Roman';
 }
 * {
   box-sizing: border-box;
@@ -51,26 +55,31 @@ a:active{
   clear: both;
   display: table;
 }
-#whynot {
-    width: 33.3%;
+
+
+#box1 {
+    /*width: 33.3%;
     padding: 0px;
-    border: 3px solid gray;
-    margin-left: 4%;
+    */
+    border: 4px solid rgb(135, 87, 219);
+    margin: 15%;
+    float:right;
+    padding: 3%;
+    /*margin-left: 4%;
     margin-right: 0;
     margin-top: 0;
     margin-bottom: 0;
-    float:left; 
+    float:left; */
 }
 
-#ihate{
- width: 33.3%;
+/*#box2{
+ /* width: 33.3%;
     padding: 0px;
     border: 3px solid orange;
     margin: 0;
     float:right; 
     max-width: 100%;
-
-}
+}*/
 .potatoe{
 
     padding:10px;
