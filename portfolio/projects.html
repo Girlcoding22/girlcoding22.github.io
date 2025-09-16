@@ -1,26 +1,76 @@
 <!DOCTYPE html>
   <link rel="stylesheet" href="style.css"/>
   <title> Projects</title>
-  <link rel="shortcut icon" href="UCSC.jpeg" type="image" sizes="18x18">
+<link rel="shortcut icon" href="media/GGBridge.jpg" type="image/jpeg" sizes="18x18">
   <head>
   </head>
   <body>
-    <div id="whynot"><a href="index.html">Home</a></div>
-         <div id="ihate"> <a href="projects.html">Projects</a> </div>
+      <div id="directory">
+        <li>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a> 
+        <a href="about.html">About</a>
+      </li>
+      </div>
+        
          <br>
          <br>
-    <p>Project Page:</p>
-    <p>I have worked along with other people in creating small projects.</p>
-    <!--add photo of  the intro profolio, screenshot-->
-    <li>My first projects on computer programming was making a mock portfolio
-    (it was made with another account I can't log in). 
-    The introduction towards learning about html, css, and javascript. 
-    <a href="https://giovannag27.github.io/portfolio/index.html">Here</a> is the link if you want to see the growth I've had. 
-    However, this webpage is the proper portfolio and the most updated one I have.</li>
-    <!--screenshot of the game so far, and link to download the game(along with the game website)-->
-    <li>I am also part of a Game design and development club, as a freshman in college. I am right now learning how to code C# for videogames, like <i>Super Squeak Fighter</i>. I worked on creating a moveable platform and the power system for one of the characters.</li>
-    <!--screenshot of the homepage(or gif), then link to it-->
-    <li>I've also created a website for a HS club i am helping facilitating, it is mainly for women intending to do STEM in the future.</li>
-  
+    <h1>Project Page:</h1>
+    <p>Here is a quick list of all past projects that I have worked on</p>
+    <!--carousel of screenshots of past projects-->
+    <!--make a dropdown directory of different categories: web development, games, and data analytics/science:, passion projects-->
+    <div>
+      <label for="project-category">Choose a category:</label>
+      <select id="project-category" onchange="showCategoryInfo()">
+        <option value="">--Select--</option>
+        <option value="webdev">Web Development</option>
+        <option value="games">Games</option>
+        <option value="data">Data Analytics/Science</option>
+        <option value="passion">Passion Projects</option>
+      </select>
+    </div>
+    <div id="category-info" style="display:none; margin-top:10px; border:1px solid #ccc; padding:10px;"></div>
+    <script>
+      function showCategoryInfo() {
+        const info = {
+          webdev: "<p>Web development projects, including HTML, CSS, and JavaScript.</p><br>"
+              + "<p>Project Name: Echoes of Time: </p>" + "<br>*insert information of the website here",
+              //screenshot of the game so far, and link to download the game(along with the game website), the screenshot will hold hyperlink to the website
+
+          games: "<p>Game development projects, including C# and Unity work.</p><br>"
+          +"I am also part of a Game design and development club, as a freshman in college. I am right now learning how to code C# for videogames, like <i>Super Squeak Fighter</i>."+
+          " I worked on creating a moveable platform and the power system for one of the characters." ,
+          //screenshot of the homepage(or gif), then link to it
+
+          data: "<p>Data analytics and science projects using Python, R, or similar tools.</p>"+
+          "<br>",
+
+          passion: "<p>Personal passion projects outside of coursework or clubs.</p>"
+        };
+        const select = document.getElementById('project-category');
+        const value = select.value;
+        const infoDiv = document.getElementById('category-info');
+        if (info[value]) {
+          infoDiv.style.display = 'block';
+          infoDiv.innerHTML = info[value]; // set HTML so multiple <p> blocks render
+        } else {
+          infoDiv.style.display = 'none';
+          infoDiv.textContent = '';
+        }
+      }
+    </script>
+  <!-- <div id="webdev-desc" style="display:none;">
+      Web development projects, including HTML, CSS, JavaScript, and related technologies
+     My first projects on computer programming was making a mock portfolio
+        (it was made with another account I can't log in).
+        The introduction towards learning about html, css, and javascript. 
+    </div> -->
+    
+      <!-- <li>My first projects on computer programming was making a mock portfolio
+        (it was made with another account I can't log in).
+        The introduction towards learning about html, css, and javascript. 
+        <a href="https://giovannag27.github.io/portfolio/index.html">Here</a> is the link if you want to see the growth I've had. 
+        However, this webpage is the proper portfolio and the most updated one I have.</li> -->
+
   </body>
 </html>
